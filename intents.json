@@ -1,0 +1,29 @@
+{"intents": [
+    {"tag" : "greeting",
+    "patterns": ["Hi", "Hey", "Hello", "Is anyone here?","Whats up?"],
+    "responses": ["Hello!", "Hi, how can I help you?", "Good to see you again!"],
+    "context_set": ""
+    },
+
+    {"tag" : "goodbye",
+        "patterns": ["Bye", "Goodbye", "Im leaving", "Thats it"],
+        "responses": ["Goodbye, be safe!", "Sad to see you go!", "Bye and have a nice day!"],
+        "context_set": ""
+        },
+
+    {"tag" : "name",
+        "patterns": ["Who are you?", "Whats your name?", "How can I call you?"],
+        "responses": ["My name is Flash", "You can call me Flash"],
+        "context_set": ""
+    },
+
+    {"tag" : "age",
+    "patterns": ["How old are you?", "Whats your age?"],
+    "responses": ["It doesnt matter as long as I feel young in my heart"],
+    "context_set": ""
+    },
+
+
+
+]
+}
